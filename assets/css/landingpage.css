@@ -195,11 +195,157 @@ footer {
 
 /* RESPONSIVIDADE */
 @media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  /* Navbar */
+  .navbar {
+    padding: 10px 0;
+  }
+
+  .navbar img {
+    height: 60px;
+    width: 60px;
+    margin-left: 0;
+  }
+
+  .navbar-nav {
+    margin-right: 0;
+  }
+
+  .navbar .nav-link {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+
+  /* Hero */
+  .hero {
+    height: 90vh;
+  }
+
+  .hero-content img {
+    width: 250px;
+    margin-bottom: 15px;
+  }
+
   .hero-content h1 {
     font-size: 2rem;
+    margin-bottom: 15px;
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem;
   }
 
   .hero-content p {
     font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .hero-content .btn {
+    font-size: 1rem;
+    padding: 12px 30px;
+  }
+
+  /* Sections */
+  section {
+    padding: 60px 0;
+  }
+
+  h2.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  /* Beneficio cards */
+  .beneficio-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* CTA */
+  .cta {
+    padding: 60px 20px;
+  }
+
+  .cta h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .cta p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .cta .btn {
+    font-size: 1rem;
+    padding: 12px 30px;
+  }
+
+  /* Footer */
+  footer {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  /* Navbar */
+  .navbar img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar .nav-link {
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero-content img {
+    width: 200px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  /* Sections */
+  section {
+    padding: 40px 0;
+  }
+
+  h2.section-title {
+    font-size: 1.5rem;
+  }
+
+  /* Beneficio cards */
+  .beneficio-card {
+    padding: 15px;
+  }
+
+  /* CTA */
+  .cta {
+    padding: 40px 15px;
+  }
+
+  .cta h2 {
+    font-size: 1.3rem;
+  }
+
+  .cta p {
+    font-size: 0.9rem;
   }
 }
